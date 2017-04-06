@@ -23,9 +23,9 @@ a, a:hover, a:active, a:visited {
   text-decoration: none;
   color: inherit;
   transition: all 0.3s;
-  &:hover {
-    color: #a54242;
-  }
+}
+a:hover {
+  color: #a54242;
 }
 
 .home {
@@ -42,9 +42,9 @@ a, a:hover, a:active, a:visited {
     ),
   url('https://images.unsplash.com/42/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=c9ccdd64d6de7dac658ea462d18de097');
   background-size: cover;
-  & h1 {
-  font-size: 10vw;
-  }
+}
+.home h1 {
+font-size: 10vw;
 }
 
 .nav {
