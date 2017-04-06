@@ -43,7 +43,7 @@ a:hover {
   url('https://images.unsplash.com/42/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=c9ccdd64d6de7dac658ea462d18de097');
   background-size: cover;
 }
-.home h1 {
+.home > h1 {
 font-size: 10vw;
 }
 
