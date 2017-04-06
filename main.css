@@ -2,9 +2,9 @@
 box-sizing: border-box;
 }
 
-body {
+.body {
 color: #161616;
-font-size: 22px;
+font-size: 20px;
 font-family: 'Trirong', sans-serif;
 }
 
@@ -23,9 +23,6 @@ a, a:hover, a:active, a:visited {
 text-decoration: none;
 color: inherit;
 transition: all 0.3s;
-}
-a:hover {
-color: #a54242;
 }
 
 .home {
@@ -102,13 +99,13 @@ transition: all 0.3s;
 background-image: url('https://s33.postimg.org/84z58z1db/Screen_Shot_2016-05-25_at_10.42.36_PM.png');
 }
 .s2 {
-background-image: url('https://s33.postimg.org/wk4dy1s8f/Screen_Shot_2016_05_24_at_11_13_53_PM.png');
+background-image: url('https://s15.postimg.org/4fiu25u4r/Screen_Shot_2017-04-06_at_11.26.16_AM.png');
 }
 .s3 {
 background-image: url('https://s33.postimg.org/67qpkb4tr/Screen_Shot_2016_05_24_at_11_14_30_PM.png')
 }
 .s4 {
-background-image: url('https://s33.postimg.org/olfpdqt7z/Screen_Shot_2016_06_04_at_10_03_34_AM.png');
+background-image: url('https://s23.postimg.org/d5xlsy0dn/Screen_Shot_2017-04-06_at_12.19.13_PM.png');
 }
 
 .tag {
@@ -128,4 +125,10 @@ margin-top: 180px;
 text-align: center;
 position: absolute;
 bottom: 0;
+}
+
+.social-ul a:hover {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #a54242;
 }
