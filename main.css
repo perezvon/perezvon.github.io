@@ -97,16 +97,16 @@ font-size: 10vw;
   background-size: cover;
   transition: all 0.3s;
 }
-.work-sample.s1 {
+.s1 {
     background-image: url('https://s33.postimg.org/84z58z1db/Screen_Shot_2016-05-25_at_10.42.36_PM.png');
   }
-.work-sample.s2 {
+.s2 {
     background-image: url('https://s33.postimg.org/wk4dy1s8f/Screen_Shot_2016_05_24_at_11_13_53_PM.png');
   }
-.work-sample.s3 {
+.s3 {
     background-image: url('https://s33.postimg.org/67qpkb4tr/Screen_Shot_2016_05_24_at_11_14_30_PM.png')
   }
-.work-sample.s4 {
+.s4 {
     background-image: url('https://s33.postimg.org/olfpdqt7z/Screen_Shot_2016_06_04_at_10_03_34_AM.png');
   }
 
