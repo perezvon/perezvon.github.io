@@ -15,7 +15,7 @@ a, a:hover, a:active, a:visited {
   transition: all 0.3s;
 }
 
-#video {
+#home {
   position: relative;
   top: -70px;
   height: 104vh;
@@ -41,7 +41,7 @@ a, a:hover, a:active, a:visited {
   transition: 1s opacity;
 }
 
-#video h1 {
+#home h1 {
   font-size: 10vw;
 }
 
@@ -83,7 +83,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .work-row {
-  height: 500px;
+  height: 100vh;
   margin-top: 30px;
   margin-bottom: 10px;
   padding-top: 60px;
@@ -94,7 +94,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .work-sample {
-  height: 380px;
+  height: 80vh;
   background: no-repeat center center;
   background-size: cover;
   transition: all 0.3s;
@@ -133,14 +133,33 @@ a, a:hover, a:active, a:visited {
 }
 
 .big-button {
-  display: inline-block;
-  background: #8D4F45;
-  height: 120px;
-  width: 280px;
-  border: 2px solid #0E1A32;
-  color: white;
-  font-variant: small-caps;
-  transition: all 0.5s;
+    display: inline-block;
+    background: #8D4F45;
+    border: 2px solid #0E1A32;
+    color: white;
+    font-variant: small-caps;
+    transition: all 0.5s;
+  }
+@media only screen and (max-width: 500px) {
+  .big-button {
+      position: absolute;
+      top: 80%;
+      left: 30%;
+    }
+
+
+  }
+    @media only screen and (min-width: 500px) {
+      .big-button {
+      height: 120px;
+      width: 280px;
+    }
+    .work-row {
+        height: 500px;
+    }
+    .work-sample {
+        height: 380px;
+    }
 }
 
 .big-button:hover {
@@ -149,12 +168,10 @@ a, a:hover, a:active, a:visited {
 }
 
 #social {
-  position: relative;
   margin-top: 40px;
 }
 .social-ul {
   text-align: center;
-  position: absolute;
   bottom: 0;
 }
 
