@@ -140,27 +140,9 @@ a, a:hover, a:active, a:visited {
     font-variant: small-caps;
     transition: all 0.5s;
   }
-@media only screen and (max-width: 500px) {
-  .big-button {
-      position: absolute;
-      top: 80%;
-      left: 30%;
+  .xs-button {
+      margin-top: 40%;
     }
-
-
-  }
-    @media only screen and (min-width: 500px) {
-      .big-button {
-      height: 120px;
-      width: 280px;
-    }
-    .work-row {
-        height: 500px;
-    }
-    .work-sample {
-        height: 380px;
-    }
-}
 
 .big-button:hover {
   background: #0E1A32;
@@ -179,4 +161,18 @@ a, a:hover, a:active, a:visited {
   text-decoration: none;
   transition: all 0.3s;
   color: #a54242;
+}
+
+/* restyling for larger screens */
+@media only screen and (min-width: 500px) {
+  .big-button {
+    height: 120px;
+    width: 280px;
+}
+  .work-row {
+    height: 500px;
+  }
+  .work-sample {
+    height: 380px;
+  }
 }
