@@ -141,8 +141,8 @@ a, a:hover, a:active, a:visited {
     transition: all 0.5s;
   }
   .xs-button {
-    height: 120px;
-    margin-top: 40%;
+    height: 100px;
+    margin-top: 20%;
   }
 
 .big-button:hover {
