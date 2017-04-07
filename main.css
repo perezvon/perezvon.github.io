@@ -3,9 +3,10 @@
 }
 
 .body {
+  background: #e2e2e2;
   color: #161616;
   font-size: 20px;
-  font-family: 'Trirong', sans-serif;
+  font-family: 'Scope One', sans-serif;
 }
 
 a, a:hover, a:active, a:visited {
@@ -72,9 +73,14 @@ a, a:hover, a:active, a:visited {
 }
 
 .work-row {
-  height: 400px;
+  height: 500px;
   margin-top: 30px;
   margin-bottom: 10px;
+  padding-top: 60px;
+}
+
+.work-row:nth-child(odd) {
+  background-color: white;
 }
 
 .work-sample {
@@ -106,8 +112,30 @@ a, a:hover, a:active, a:visited {
   height: 50px;
   width: 120px;
   padding-top: 10px;
+  margin-bottom: 4px;
   border: 2px solid #8D4F45;
   font-variant: small-caps;
+}
+
+#email {
+  text-align: center;
+  font-size: 34px;
+}
+
+.big-button {
+  display: inline-block;
+  background: #8D4F45;
+  height: 120px;
+  width: 280px;
+  border: 2px solid #0E1A32;
+  color: white;
+  font-variant: small-caps;
+  transition: all 0.5s;
+}
+
+.big-button:hover {
+  background: #0E1A32;
+  border: 2px solid #8D4F45;
 }
 
 #social {
