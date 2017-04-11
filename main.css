@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 
+
 .body {
+  margin: 0px;
+  padding: 0px;
   background: #e2e2e2;
   color: #161616;
   font-size: 20px;
@@ -19,6 +22,8 @@ a, a:hover, a:active, a:visited {
   position: relative;
   top: -70px;
   height: 104vh;
+  width: 100%;
+  overflow: hidden;
   color: white;
   border-bottom: 1px solid black;
   background: no-repeat center center fixed;
@@ -33,12 +38,11 @@ a, a:hover, a:active, a:visited {
 
 #hero-video {
     position: relative;
-    padding-top: 10px;
-    height: 104vh;
+    min-height: 100%;
+    min-width: 100%;
     z-index: -100;
     background: no-repeat center center fixed;
-  background-size: cover;
-  transition: 1s opacity;
+    background-size: cover;
 }
 
 #home h1 {
