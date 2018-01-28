@@ -120,6 +120,21 @@ a, a:hover, a:active, a:visited {
 .s4 {
   background-image: url('https://s23.postimg.org/d5xlsy0dn/Screen_Shot_2017-04-06_at_12.19.13_PM.png');
 }
+.s5 {
+  background-image: url('https://s3.us-east-2.amazonaws.com/jam518/nmt.png');
+}
+.s6 {
+  background-image: url('https://s3.us-east-2.amazonaws.com/jam518/doping.png');
+}
+.s8 {
+  background-image: url('https://s3.us-east-2.amazonaws.com/jam518/calc.png');
+}
+.s9{
+  background-image: url('https://s3.us-east-2.amazonaws.com/jam518/dbs.png');
+}
+.s10{
+  background-image: url('https://s3.us-east-2.amazonaws.com/jam518/subtrack.png');
+}
 
 .tag {
   display: inline-block;
