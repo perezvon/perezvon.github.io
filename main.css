@@ -87,8 +87,8 @@ a, a:hover, a:active, a:visited {
 }
 
 .work-row {
-  height: 100vh;
-  margin-top: 30px;
+  height: 65vh;
+  margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 60px;
 }
@@ -98,9 +98,9 @@ a, a:hover, a:active, a:visited {
 }
 
 .work-sample {
-  height: 80vh;
+  height: 35vh;
   background: no-repeat center center;
-  background-size: cover;
+  background-size: contain;
   transition: all 0.3s;
   border: 1px solid #161616;
   border-radius: 4px;
@@ -190,9 +190,9 @@ a, a:hover, a:active, a:visited {
     width: 280px;
 }
   .work-row {
-    height: 500px;
+    height: 370px;
   }
   .work-sample {
-    height: 380px;
+    height: 260px;
   }
 }
