@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#home a span {
+  position: absolute;
+  top: 90vh;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box; }
+
+@-webkit-keyframes sdb04 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0); }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px); }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0); } }
+
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0); }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px); }
+  40% {
+    transform: rotate(-45deg) translate(0, 0); } }
+
+#home a {
+  transition: opacity 0.3s; }
+  #home a:hover {
+    opacity: .5; }
+
+body {
+  font-size: 16px;
+  font-family: 'Montserrat'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-variant: small-caps; }
+
+#home h1 {
+  font-size: 12vh;
+  margin-bottom: 20px; }
+
+.hero-title {
+  letter-spacing: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50%; }
+
+#home, #about, #contact, #skills {
+  height: 100vh; }
+
+section .content {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50%; }
+
+#about .content,
+#contact .content {
+  top: 30vh; }
+
+#projects {
+  display: inline-block; }
+
+.projects-container {
+  margin-top: 50px; }
+
+.project {
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  margin: 20px;
+  background: no-repeat center center;
+  background-size: cover;
+  transition: all 0.5s; }
+  .project::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(17, 17, 17, 0.4);
+    content: '';
+    pointer-events: none; }
+  .project::before {
+    color: white;
+    padding: 100px;
+    font-size: 22px; }
+  .project:nth-of-type(1) {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/conway.png"); }
+    .project:nth-of-type(1)::before {
+      transform-origin: right top;
+      content: 'conway\'s game of life in vanilla js'; }
+  .project:nth-of-type(2) {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/poppati.png"); }
+    .project:nth-of-type(2)::before {
+      transform-origin: left top;
+      content: 'poppati'; }
+  .project:nth-of-type(3) {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/orderr.png"); }
+    .project:nth-of-type(3)::before {
+      transform-origin: left bottom;
+      content: 'orderr.co'; }
+  .project:nth-of-type(4) {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/rldc.png"); }
+    .project:nth-of-type(4)::before {
+      content: 'roguelike dungeon crawler'; }
+  .project:nth-of-type(5) {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/atb.png"); }
+    .project:nth-of-type(5)::before {
+      transform-origin: right bottom;
+      content: 'aloysius the band'; }
+  .project:nth-of-type(6) {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/subtrack.png"); }
+    .project:nth-of-type(6)::before {
+      transform-origin: left top;
+      content: 'subtrack'; }
+  .project:hover::before, .project:focus::before {
+    transform: scale3d(1, 1, 1); }
+
+.skills-container {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.skill {
+  display: inline-block;
+  height: 100px;
+  width: 100px; }
+
+.background {
+  background-image: linear-gradient(to bottom, #59d 0%, #2673bf 100%); }
+
+.blueprint-grid {
+  color: rgba(255, 255, 255, 0.8);
+  background-image: linear-gradient(0deg, transparent 0%, transparent 9px, rgba(255, 255, 255, 0.2) 9px, rgba(255, 255, 255, 0.2) 10px, transparent 10px, transparent 19px, rgba(255, 255, 255, 0.1) 19px, rgba(255, 255, 255, 0.1) 20px, transparent 20px, transparent 29px, rgba(255, 255, 255, 0.1) 29px, rgba(255, 255, 255, 0.1) 30px, transparent 30px, transparent 39px, rgba(255, 255, 255, 0.1) 39px, rgba(255, 255, 255, 0.1) 40px, transparent 40px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, rgba(255, 255, 255, 0.1) 50px), linear-gradient(-90deg, transparent 0%, transparent 9px, rgba(255, 255, 255, 0.2) 9px, rgba(255, 255, 255, 0.2) 10px, transparent 10px, transparent 19px, rgba(255, 255, 255, 0.1) 19px, rgba(255, 255, 255, 0.1) 20px, transparent 20px, transparent 29px, rgba(255, 255, 255, 0.1) 29px, rgba(255, 255, 255, 0.1) 30px, transparent 30px, transparent 39px, rgba(255, 255, 255, 0.1) 39px, rgba(255, 255, 255, 0.1) 40px, transparent 40px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, rgba(255, 255, 255, 0.1) 50px);
+  background-size: 50px 50px; }
+
+#nav-menu-button {
+  position: fixed;
+  z-index: 999;
+  top: 20px;
+  left: 20px;
+  padding: 5px;
+  color: white;
+  font-variant: small-caps;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 15%;
+  transition: color 0.3s, opacity 0.5s; }
+  #nav-menu-button:hover {
+    color: #d9d9d9;
+    border: 1px solid rgba(235, 235, 235, 0.7);
+    cursor: pointer; }
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(17, 17, 17, 0.6);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s; }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  transition: 0.3s; }
+  .sidenav a:hover {
+    color: #f1f1f1; }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+  .sidenav a {
+    font-size: 18px; } }
+
+.social-ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s; }
+  .social-ul li a:hover {
+    color: rgba(230, 230, 230, 0.7); }
