@@ -105,20 +105,20 @@ section .content {
     padding: 100px;
     font-size: 22px; }
   .project:nth-of-type(1) {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/conway.png"); }
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/orderr.png"); }
     .project:nth-of-type(1)::before {
-      transform-origin: right top;
-      content: 'conway\'s game of life in vanilla js'; }
+      transform-origin: left bottom;
+      content: 'orderr.co'; }
   .project:nth-of-type(2) {
     background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/poppati.png"); }
     .project:nth-of-type(2)::before {
       transform-origin: left top;
       content: 'poppati'; }
   .project:nth-of-type(3) {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/orderr.png"); }
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/tictactoe.png"); }
     .project:nth-of-type(3)::before {
-      transform-origin: left bottom;
-      content: 'orderr.co'; }
+      transform-origin: right top;
+      content: 'tic tac toe'; }
   .project:nth-of-type(4) {
     background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/rldc.png"); }
     .project:nth-of-type(4)::before {
@@ -161,15 +161,22 @@ section .content {
   top: 20px;
   left: 20px;
   padding: 5px;
-  color: white;
+  color: #cecece;
   font-variant: small-caps;
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  border: 1px solid #cecece;
   border-radius: 15%;
-  transition: color 0.3s, opacity 0.5s; }
+  transition: all 0.3s, opacity 0.5s; }
   #nav-menu-button:hover {
-    color: #d9d9d9;
-    border: 1px solid rgba(235, 235, 235, 0.7);
+    background-color: #353535;
+    color: white;
+    border: 1px solid #353535;
     cursor: pointer; }
+  #nav-menu-button.background--dark {
+    color: rgba(17, 17, 17, 0.7);
+    border: 1px solid rgba(17, 17, 17, 0.7); }
+  #nav-menu-button.background--light {
+    color: rgba(255, 255, 255, 0.7);
+    border: rgba(255, 255, 255, 0.7); }
 
 /* The side navigation menu */
 .sidenav {

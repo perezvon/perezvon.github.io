@@ -10,3 +10,9 @@ function closeNav() {
     document.getElementById('nav').style.width = '0';
     document.getElementById('nav-menu-button').style.opacity = 1;
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  BackgroundCheck.init({
+    targets: '.nav-menu-button'
+  });
+});

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en-us'>
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106745804-3"></script>
@@ -13,17 +13,20 @@
 
   <meta charset="UTF-8">
   <title>John A Maloney</title>
+  <meta name="description" content="Full-stack Javascript developer from Minneapolis, Minnesota. I love making beautiful, useful, and interesting things."/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet prefetch" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
-
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script>
-      window.sr = ScrollReveal();
-    </script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src='js/background-check.min.js'></script>
+    <script src='js/zenscroll-min.js'></script>
+    <script src='js/main.js'></script>
+  <script>
+    window.sr = ScrollReveal();
+  </script>
 </head>
 
   <body>
@@ -36,7 +39,7 @@
       <a href="#contact">contact</a>
     </div>
     <div class='background'>
-      <span id='nav-menu-button' onclick="openNav()">menu</span>
+      <span id='nav-menu-button' class='nav-menu-button' onclick="openNav()">menu</span>
       <div class='blueprint-grid'>
         <section id='home' class='text-center'>
           <div class='hero-title'>
@@ -61,12 +64,12 @@
           <section class='text-center'>
             <h1>projects</h1>
             <div class='content projects-container'>
-              <a href='https://codepen.io/perezvon/full/zEqPMW/' class='project'></a>
-              <a href='http://poppati.com/' class='project'></a>
-              <a href='http://orderr.co/' class='project'></a>
-              <a href='https://codepen.io/perezvon/full/PQWdJr/' class='project'></a>
-              <a href='http://aloysiustheband.com/' class='project'></a>
-              <a href='http://submission-tracker.herokuapp.com/' class='project'></a>
+              <a title='tic tac toe' href='https://codepen.io/perezvon/full/beVwxQ/' class='lazy project'></a>
+              <a title='poppati' href='http://poppati.com/' class='lazy project'></a>
+              <a title='orderr' href='http://orderr.co/' class='lazy project'></a>
+              <a title='roguelike dungeon crawler' href='https://codepen.io/perezvon/full/PQWdJr/' class='lazy project'></a>
+              <a title='aloysius the band' href='http://aloysiustheband.com/' class='lazy project'></a>
+              <a title='submissions tracker' href='http://submission-tracker.herokuapp.com/' class='lazy project'></a>
             </div>
           </section>
         </div>
@@ -74,14 +77,15 @@
       <section id='skills' class='text-center'>
         <h2>skills</h2>
         <div class='skills-container'>
-          <img class='skill' src='images/html5.svg' alt='html5' />
-          <img class='skill' src='images/bootstrap.svg' alt='bootstrap' />
-          <img class='skill' src='images/github.svg' alt='git' />
-          <img class='skill' src='images/react.svg' alt='react' />
-          <img class='skill' src='images/meteor.svg' alt='meteor' />
-          <img class='skill' src='images/mongodb.svg' alt='mongodb' />
-          <img class='skill' src='images/gulp.svg' alt='gulp' />
-          <img class='skill' src='images/css3.svg' alt='css3' />
+          <img class='skill' src='images/react.svg' title='react' alt='react' />
+          <img class='skill' src='images/meteor.svg' title='meteor' alt='meteor' />
+          <img class='skill' src='images/nodejs.svg' title='nodejs' alt='nodejs' />
+          <img class='skill' src='images/html5.svg' title='html5' alt='html5' />
+          <img class='skill' src='images/gulp.svg' title='gulp' alt='gulp' />
+          <img class='skill' src='images/bootstrap.svg' title='bootstrap' alt='bootstrap' />
+          <img class='skill' src='images/github.svg' title='git' alt='git' />
+          <img class='skill' src='images/mongodb.svg' title='mongodb' alt='mongodb' />
+          <img class='skill' src='images/css3.svg' title='css3' alt='css3' />
         </div>
       </section>
       <div class='background'>
@@ -98,6 +102,8 @@
                 </li>
                 <li><a href="https://twitter.com/itsjohnamaloney"><i class="fa fa-3x fa-twitter"></i></a>
                 </li>
+                <li><a href="https://medium.com/@itsjohnamaloney/"><i class="fa fa-3x fa-medium"></i></a>
+                </li>
                 <li><a href="https://freecodecamp.com/perezvon"><i class="fa fa-3x fa-fire"></i></a>
                 </li>
               </ul>
@@ -105,8 +111,6 @@
           </section>
         </div>
       </div>
-        <script src='js/zenscroll-min.js'></script>
-        <script src='js/main.js'></script>
         <script>
           sr.reveal('.skill', {duration: 2000 }, 250);
           sr.reveal('.project', {duration: 2500 }, 300);
