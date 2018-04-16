@@ -110,10 +110,10 @@ section .content {
       transform-origin: left bottom;
       content: 'orderr.co'; }
   .project:nth-of-type(2) {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/poppati.png"); }
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/jamcoin.png"); }
     .project:nth-of-type(2)::before {
       transform-origin: left top;
-      content: 'poppati'; }
+      content: 'jamcoin - a fictional cryptocurrency'; }
   .project:nth-of-type(3) {
     background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/tictactoe.png"); }
     .project:nth-of-type(3)::before {
@@ -124,10 +124,10 @@ section .content {
     .project:nth-of-type(4)::before {
       content: 'roguelike dungeon crawler'; }
   .project:nth-of-type(5) {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/atb.png"); }
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/pomodoro.png"); }
     .project:nth-of-type(5)::before {
       transform-origin: right bottom;
-      content: 'aloysius the band'; }
+      content: 'pomodoro clock'; }
   .project:nth-of-type(6) {
     background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/subtrack.png"); }
     .project:nth-of-type(6)::before {
