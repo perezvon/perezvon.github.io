@@ -120,19 +120,23 @@ section .content {
       transform-origin: right top;
       content: 'tic tac toe'; }
   .project:nth-of-type(4) {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/rldc.png"); }
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/greatvids.png"); }
     .project:nth-of-type(4)::before {
-      content: 'roguelike dungeon crawler'; }
+      content: 'greativds - streaming video ui'; }
   .project:nth-of-type(5) {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/pomodoro.png"); }
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/rldc.png"); }
     .project:nth-of-type(5)::before {
+      content: 'roguelike dungeon crawler'; }
+  .project:nth-of-type(6) {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/pomodoro.png"); }
+    .project:nth-of-type(6)::before {
       transform-origin: right bottom;
       content: 'pomodoro clock'; }
-  .project:nth-of-type(6) {
+  .project:nth-of-type(7) {
     background-image: linear-gradient(rgba(17, 17, 17, 0.2), rgba(17, 17, 17, 0.3)), url("../images/subtrack.png"); }
-    .project:nth-of-type(6)::before {
+    .project:nth-of-type(7)::before {
       transform-origin: left top;
-      content: 'subtrack'; }
+      content: 'subtrack - submissions tracking'; }
   .project:hover::before, .project:focus::before {
     transform: scale3d(1, 1, 1); }
 
